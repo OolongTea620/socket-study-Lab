@@ -4,6 +4,14 @@ spring:
     url: ${DB_URL}
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
+    freemarker:
+      cache: 'false'
+    devtools:
+      livereload:
+        enabled: 'true'
+
+  server:
+    port: '8080'
 
   jpa:
     hibernate:
