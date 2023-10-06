@@ -5,13 +5,22 @@ spring:
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
 
-  jpa:
-    hibernate:
-      ddl-auto: update
-      naming:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-    properties:
-      hibernate:
-        show_sql: true
-        format_sql: true
-        use_sql_comments: true
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#      naming:
+#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#    properties:
+#      hibernate:
+#        show_sql: true
+#        format_sql: true
+#        use_sql_comments: true
+  data:
+    mongodb:
+      uri: mongodb+srv://rlafls9596:fWXBUsAEUlNb34Zo@cluster0.xwpy0zm.mongodb.net/?retryWrites=true&w=majority
+      password: fWXBUsAEUlNb34Zo
+      username: rlafls9596
+
+
+# MongoDB rlafls9596 fWXBUsAEUlNb34Zo
+#mongodb+srv://rlafls9596:fWXBUsAEUlNb34Zo@cluster0.xwpy0zm.mongodb.net/?retryWrites=true&w=majority
