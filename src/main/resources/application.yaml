@@ -1,6 +1,6 @@
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+#    driver-class-name: com.mysql.cj.jdbc.Driver
     url: ${DB_URL}
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
@@ -24,3 +24,11 @@ spring:
 
 # MongoDB rlafls9596 fWXBUsAEUlNb34Zo
 #mongodb+srv://rlafls9596:fWXBUsAEUlNb34Zo@cluster0.xwpy0zm.mongodb.net/?retryWrites=true&w=majority
+
+
+
+  freemarker:
+    cache: false
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
